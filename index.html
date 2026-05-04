@@ -14,6 +14,10 @@
     <header class="masthead">
         <h1>Test Your Typing Speed</h1>
     </header>
+    <section class="top-scores">
+        <h2>Top 3 Fastest Times</h2>
+        <ol id="top-scores-list"></ol>
+    </section>
     <main class="main">
         <article class="intro">
             <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
@@ -31,6 +35,8 @@
                 <section id="clock">
                     <div class="timer">00:00:00</div>
                 </section>
+                <div id="wpm">WPM: </div>
+                <div id="typing-errors">Errors: 0</div>
 
                 <button id="reset">Start over</button>
             </div><!-- .meta -->
